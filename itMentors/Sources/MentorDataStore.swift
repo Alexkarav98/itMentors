@@ -50,4 +50,6 @@ class MentorDataStore {
         "Kotlin", "PHP", "Delphi",
         "Golang", "Java"
     ]
+    
+    //Комментарий для проверки работы Pull Request
 }
