@@ -17,6 +17,9 @@
 		0BE27BA82895876800A88574 /* Mentor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE27BA72895876800A88574 /* Mentor.storyboard */; };
 		0BF6D78F2892558B0003D0A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6D78E2892558B0003D0A2 /* User.swift */; };
 		94594DDF28968D9400A39009 /* RenatPart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94594DDE28968D9400A39009 /* RenatPart.storyboard */; };
+		94E52D682896997F007812C9 /* MentorTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52D672896997F007812C9 /* MentorTabBarViewController.swift */; };
+		94E52D6A28969B93007812C9 /* MentorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52D6928969B93007812C9 /* MentorInfoViewController.swift */; };
+		94E52D6C28969EC7007812C9 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52D6B28969EC7007812C9 /* ReviewTableViewController.swift */; };
 		AD61B6842892A97400881A8D /* DeveloperDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6832892A97400881A8D /* DeveloperDataStore.swift */; };
 		AD61B6862892A98100881A8D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6852892A98100881A8D /* Developer.swift */; };
 		AD61B6882892B41400881A8D /* DevelopersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B6872892B41400881A8D /* DevelopersListViewController.swift */; };
@@ -38,6 +41,9 @@
 		0BE27BA72895876800A88574 /* Mentor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentor.storyboard; sourceTree = "<group>"; };
 		0BF6D78E2892558B0003D0A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		94594DDE28968D9400A39009 /* RenatPart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RenatPart.storyboard; sourceTree = "<group>"; };
+		94E52D672896997F007812C9 /* MentorTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTabBarViewController.swift; sourceTree = "<group>"; };
+		94E52D6928969B93007812C9 /* MentorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorInfoViewController.swift; sourceTree = "<group>"; };
+		94E52D6B28969EC7007812C9 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
 		AD61B6832892A97400881A8D /* DeveloperDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperDataStore.swift; sourceTree = "<group>"; };
 		AD61B6852892A98100881A8D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		AD61B6872892B41400881A8D /* DevelopersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersListViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				0B2609822890001100DA573D /* LoginViewController.swift */,
 				AD61B6872892B41400881A8D /* DevelopersListViewController.swift */,
 				AD61B6892893171A00881A8D /* SearchViewController.swift */,
+				94E52D672896997F007812C9 /* MentorTabBarViewController.swift */,
+				94E52D6928969B93007812C9 /* MentorInfoViewController.swift */,
+				94E52D6B28969EC7007812C9 /* ReviewTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -216,9 +225,12 @@
 				B38700D6289147A100568C86 /* MentorDataStore.swift in Sources */,
 				B38700D328907F1D00568C86 /* Mentor.swift in Sources */,
 				0BF6D78F2892558B0003D0A2 /* User.swift in Sources */,
+				94E52D682896997F007812C9 /* MentorTabBarViewController.swift in Sources */,
 				0B2609832890001100DA573D /* LoginViewController.swift in Sources */,
+				94E52D6C28969EC7007812C9 /* ReviewTableViewController.swift in Sources */,
 				0B26097F2890001100DA573D /* AppDelegate.swift in Sources */,
 				AD61B6842892A97400881A8D /* DeveloperDataStore.swift in Sources */,
+				94E52D6A28969B93007812C9 /* MentorInfoViewController.swift in Sources */,
 				AD61B6882892B41400881A8D /* DevelopersListViewController.swift in Sources */,
 				0B2609812890001100DA573D /* SceneDelegate.swift in Sources */,
 			);

@@ -245,7 +245,6 @@
         <!--View Controller-->
         <scene sceneID="52u-sX-gUr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H8P-cq-D0K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="qjd-rJ-u6x" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3pd-9R-gX0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -255,6 +254,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="pbH-hV-QxQ"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8P-cq-D0K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2439" y="-548"/>
         </scene>

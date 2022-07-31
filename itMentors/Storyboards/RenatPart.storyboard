@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,13 +11,13 @@
         <!--About-->
         <scene sceneID="Tfk-2B-Gb6">
             <objects>
-                <viewController id="x2i-XN-18B" sceneMemberID="viewController">
+                <viewController id="x2i-XN-18B" customClass="MentorInfoViewController" customModule="itMentors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wPO-pH-mw0">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bzQ-zm-Nwd">
-                                <rect key="frame" x="30" y="506" width="368" height="180"/>
+                                <rect key="frame" x="30" y="395" width="354" height="180"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Information about mentor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duq-rz-okJ">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="30"/>
@@ -46,13 +46,13 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pd9-LU-nWF">
-                                <rect key="frame" x="51" y="84" width="326" height="326"/>
+                                <rect key="frame" x="77.333333333333343" y="40" width="259.33333333333326" height="259"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pd9-LU-nWF" secondAttribute="height" multiplier="1:1" id="i0g-BT-gej"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mentor Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNU-wS-WdB">
-                                <rect key="frame" x="119.66666666666667" y="440" width="188.66666666666663" height="36"/>
+                                <rect key="frame" x="112.66666666666667" y="329" width="188.66666666666663" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -72,6 +72,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="info.circle" catalog="system" id="Hpk-fP-NAi"/>
+                    <connections>
+                        <outlet property="cityLabel" destination="CLr-qP-e9b" id="F0q-sK-OTM"/>
+                        <outlet property="devLanguageLabel" destination="SXm-zl-5oO" id="h3M-l3-mKt"/>
+                        <outlet property="experienceLabel" destination="fIS-vu-lWp" id="aMj-EJ-SHD"/>
+                        <outlet property="mentorNameLabel" destination="HNU-wS-WdB" id="gjI-fH-n5e"/>
+                        <outlet property="mentorPhotoImageView" destination="pd9-LU-nWF" id="GXf-gE-kSv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gCb-eY-tb8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,17 +87,17 @@
         <!--Review-->
         <scene sceneID="u11-lv-beH">
             <objects>
-                <tableViewController id="z72-jr-4GA" sceneMemberID="viewController">
+                <tableViewController id="z72-jr-4GA" customClass="ReviewTableViewController" customModule="itMentors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="xqm-k0-Pyg">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Review" id="tCc-yx-bQQ">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tCc-yx-bQQ" id="ugz-PQ-ktd">
-                                    <rect key="frame" x="0.0" y="0.0" width="428" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -106,10 +113,10 @@
             </objects>
             <point key="canvasLocation" x="4060" y="409"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Mentor Tab Bar View Controller-->
         <scene sceneID="G7n-s8-COC">
             <objects>
-                <tabBarController id="oCz-iV-pkG" sceneMemberID="viewController">
+                <tabBarController id="oCz-iV-pkG" customClass="MentorTabBarViewController" customModule="itMentors" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="2EK-C5-FDN"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sCY-UA-i7f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
