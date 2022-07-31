@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,86 +13,98 @@
             <objects>
                 <viewController id="x2i-XN-18B" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wPO-pH-mw0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pd9-LU-nWF">
-                                <rect key="frame" x="82" y="84" width="250" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="USb-pd-cO9"/>
-                                    <constraint firstAttribute="width" secondItem="pd9-LU-nWF" secondAttribute="height" multiplier="1:1" id="fc4-hV-gmi"/>
-                                    <constraint firstAttribute="height" constant="250" id="jqm-ic-7Zf"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mentor Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNU-wS-WdB">
-                                <rect key="frame" x="112.5" y="364" width="189" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="bzQ-zm-Nwd">
-                                <rect key="frame" x="30" y="450" width="354" height="222"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bzQ-zm-Nwd">
+                                <rect key="frame" x="30" y="506" width="368" height="180"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duq-rz-okJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="36.5" height="25.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Information about mentor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duq-rz-okJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXm-zl-5oO">
-                                        <rect key="frame" x="0.0" y="65.5" width="91" height="25.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <rect key="frame" x="0.0" y="50" width="93.666666666666671" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIS-vu-lWp">
-                                        <rect key="frame" x="0.0" y="131" width="36.5" height="25.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="work experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIS-vu-lWp">
+                                        <rect key="frame" x="0.0" y="100" width="153.66666666666666" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLr-qP-e9b">
-                                        <rect key="frame" x="0.0" y="196.5" width="36.5" height="25.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <rect key="frame" x="0.0" y="150" width="36.666666666666664" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pd9-LU-nWF">
+                                <rect key="frame" x="51" y="84" width="326" height="326"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pd9-LU-nWF" secondAttribute="height" multiplier="1:1" id="i0g-BT-gej"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mentor Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNU-wS-WdB">
+                                <rect key="frame" x="119.66666666666667" y="440" width="188.66666666666663" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0eM-gK-e1s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="HNU-wS-WdB" firstAttribute="centerX" secondItem="0eM-gK-e1s" secondAttribute="centerX" id="1x7-Lz-YIM"/>
-                            <constraint firstItem="bzQ-zm-Nwd" firstAttribute="top" secondItem="HNU-wS-WdB" secondAttribute="bottom" constant="50" id="SjU-Kc-2AJ"/>
-                            <constraint firstItem="HNU-wS-WdB" firstAttribute="top" secondItem="pd9-LU-nWF" secondAttribute="bottom" constant="30" id="WMq-dr-hLf"/>
-                            <constraint firstItem="pd9-LU-nWF" firstAttribute="top" secondItem="0eM-gK-e1s" secondAttribute="top" constant="40" id="buc-g4-9Dy"/>
-                            <constraint firstItem="pd9-LU-nWF" firstAttribute="centerX" secondItem="0eM-gK-e1s" secondAttribute="centerX" id="hu8-9e-8GP"/>
-                            <constraint firstItem="bzQ-zm-Nwd" firstAttribute="leading" secondItem="0eM-gK-e1s" secondAttribute="leading" constant="30" id="i09-D2-Orf"/>
-                            <constraint firstItem="0eM-gK-e1s" firstAttribute="trailing" secondItem="bzQ-zm-Nwd" secondAttribute="trailing" constant="30" id="vQt-Sz-zL0"/>
+                            <constraint firstItem="bzQ-zm-Nwd" firstAttribute="top" secondItem="HNU-wS-WdB" secondAttribute="bottom" constant="30" id="IQd-tJ-B9X"/>
+                            <constraint firstItem="HNU-wS-WdB" firstAttribute="centerX" secondItem="0eM-gK-e1s" secondAttribute="centerX" id="N7q-Fu-AkL"/>
+                            <constraint firstItem="bzQ-zm-Nwd" firstAttribute="leading" secondItem="0eM-gK-e1s" secondAttribute="leading" constant="30" id="k4r-IU-aHy"/>
+                            <constraint firstItem="pd9-LU-nWF" firstAttribute="height" secondItem="wPO-pH-mw0" secondAttribute="height" multiplier="0.352113" id="lxJ-SD-x8b"/>
+                            <constraint firstItem="0eM-gK-e1s" firstAttribute="trailing" secondItem="bzQ-zm-Nwd" secondAttribute="trailing" constant="30" id="mPZ-lx-tiS"/>
+                            <constraint firstItem="pd9-LU-nWF" firstAttribute="centerX" secondItem="wPO-pH-mw0" secondAttribute="centerX" id="pu3-Su-1L0"/>
+                            <constraint firstItem="HNU-wS-WdB" firstAttribute="top" secondItem="pd9-LU-nWF" secondAttribute="bottom" constant="30" id="sFk-R1-igv"/>
+                            <constraint firstItem="pd9-LU-nWF" firstAttribute="top" secondItem="0eM-gK-e1s" secondAttribute="top" constant="40" id="xcw-d7-gMS"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="info.circle" catalog="system" id="Hpk-fP-NAi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gCb-eY-tb8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4219" y="129"/>
+            <point key="canvasLocation" x="4060" y="-270"/>
         </scene>
-        <!--Item 1-->
-        <scene sceneID="1pM-h5-dRp">
+        <!--Review-->
+        <scene sceneID="u11-lv-beH">
             <objects>
-                <viewController id="eeC-Fe-ydj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="j0G-v0-Tb4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <tableViewController id="z72-jr-4GA" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="xqm-k0-Pyg">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="prN-ka-Lvz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="k7V-kN-MLb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4GN-jX-ay4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Review" id="tCc-yx-bQQ">
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tCc-yx-bQQ" id="ugz-PQ-ktd">
+                                    <rect key="frame" x="0.0" y="0.0" width="428" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="z72-jr-4GA" id="uyH-Js-c62"/>
+                            <outlet property="delegate" destination="z72-jr-4GA" id="8lb-UC-Qnv"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Review" image="graduationcap" catalog="system" id="EjN-fn-1Ku"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9f-kk-0wg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4070" y="-577"/>
+            <point key="canvasLocation" x="4060" y="409"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="G7n-s8-COC">
@@ -106,7 +118,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="x2i-XN-18B" kind="relationship" relationship="viewControllers" id="Cld-lh-PZG"/>
-                        <segue destination="eeC-Fe-ydj" kind="relationship" relationship="viewControllers" id="99S-Ng-aIe"/>
+                        <segue destination="z72-jr-4GA" kind="relationship" relationship="viewControllers" id="UIr-nT-1mV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1BE-aW-67m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -115,6 +127,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="graduationcap" catalog="system" width="128" height="106"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
