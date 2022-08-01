@@ -14,9 +14,11 @@ struct Mentor {
     let city: String
     let scope: String
     
+    let image: String
+    
     let reviews: [Review]
     let students: [Student]
-    
+   
     var fullname: String {
         "\(name) \(surname)"
     }
@@ -32,6 +34,7 @@ struct Mentor {
                     surname: data.surname,
                     city: data.city,
                     scope: data.scope,
+                    image: data.image,
                     reviews: Review.getReviews(),
                     students: Student.getStudents()
                 )
